@@ -1,12 +1,9 @@
-import path from 'path';
-
 export default {
   devtool: 'eval',
-  entry: './src/index',
+  entry: './src/index.js',
   output: {
-    path: path.join(__dirname, 'dist'),
-    filename: 'bundle.js',
-    publicPath: '/static/',
+    path: __dirname + 'dist',
+    filename: 'bundle.js'
   },
   module: {
     loaders: [{

@@ -6,7 +6,7 @@ import { render } from 'react-dom';
 // import todoApp from './reducers';
 import App from './components/App';
 
-const store = createStore(todoApp);
+// const store = createStore(todoApp);
 
 render(
     <App />,
