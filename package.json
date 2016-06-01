@@ -1,14 +1,14 @@
 {
-  "name": "simple-react-redux-todo-list",
+  "name": "redux-todos-example",
   "version": "0.0.0",
-  "description": "Solution based on Dan Abramov",
+  "description": "Redux Todos example",
   "scripts": {
     "start": "babel-node devServer.js",
     "lint": "eslint src"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/franzejr/todos.git"
+    "url": "https://github.com/gaearon/todos.git"
   },
   "license": "MIT",
   "dependencies": {
@@ -32,7 +32,6 @@
     "eslint-plugin-jsx-a11y": "^1.0.4",
     "eslint-plugin-react": "^5.0.1",
     "express": "^4.13.3",
-    "html-webpack-plugin": "^2.19.0",
     "webpack": "^1.9.11",
     "webpack-dev-middleware": "^1.2.0"
   }
